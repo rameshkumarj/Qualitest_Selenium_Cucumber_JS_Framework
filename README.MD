@@ -13,11 +13,11 @@
     5. HTML report will be generated in the reports folder
     
     Screenshot of Execution
-    ![execution](https://user-images.githubusercontent.com/40142585/183754962-0c955bc4-54ce-4967-bedd-801bc85b88f8.png)
+![execution](https://user-images.githubusercontent.com/40142585/183754962-0c955bc4-54ce-4967-bedd-801bc85b88f8.png)
     
     Screenshot of JSON report
     
 ![json](https://user-images.githubusercontent.com/40142585/183755056-a723e288-3c41-4c26-8e1c-f264cd32c2c2.png)
 
     Screenshot of Cucumber Html report
-       ![report](https://user-images.githubusercontent.com/40142585/183755109-37474fd9-6b4f-4151-9f16-70fc83ae7e07.png)
+![report](https://user-images.githubusercontent.com/40142585/183755109-37474fd9-6b4f-4151-9f16-70fc83ae7e07.png)
