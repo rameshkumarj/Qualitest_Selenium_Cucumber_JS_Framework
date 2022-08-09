@@ -1,0 +1,22 @@
+{
+  "name": "seleniumtestproject",
+  "version": "1.0.0",
+  "description": "Selenium-Cucumber framework setup with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/KatalonPurchase.feature",
+    "report": "cucumber-js --format json:./reports/cucumber-json-reporter.json"
+  },
+  "author": "Ramesh Kumar Jayabal",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^104.0.0",
+    "selenium-webdriver": "^4.4.0"
+  },
+  "dependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}

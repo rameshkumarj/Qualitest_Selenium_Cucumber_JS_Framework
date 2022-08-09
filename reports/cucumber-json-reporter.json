@@ -1,0 +1,118 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "katalon-purchase-and-cart-validation;verify-if-the-user-able-to-add-and-remove-items-from-the-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify if the user able to add and remove items from the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2766218500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I add four random items to my cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4255598800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I view my cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1283028300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I find total four items listed in my cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17097399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for lowest price items",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77230699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I am able to remove the lowest price item from my cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2167312399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I am able to verify three items in my cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15474600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 540199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "katalon-purchase-and-cart-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Katalon purchase and cart validation",
+    "tags": [],
+    "uri": "features\\KatalonPurchase.feature"
+  }
+]
